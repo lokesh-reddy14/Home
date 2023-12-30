@@ -1,0 +1,64 @@
+*{box-sizing: border-box; }
+body{
+  margin: 0; padding: 0px; font-family: 'Poppins', sans-serif;background: #101010; display:;justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #101010;}
+
+
+
+
+.bg-lnir{background-image: linear-gradient(to right, #5363fa , #5a5c5d);}
+
+::selection{
+    color: aliceblue;
+    background: #7c9cfe;
+}
+
+
+
+/****************** start tools section *********************/
+
+.tools{
+    padding: 40px 50px;
+}
+
+.tools .tools-progres{}
+.tools .tools-progres .progres{
+    width: 50%;
+    float: left;
+    position: relative;
+    padding-bottom: 60px;
+}
+.tools .tools-progres .progres:nth-child(odd){
+    padding-right: 20px;
+}
+.tools .tools-progres .progres:nth-child(odd) p{right: 20px;}
+.tools .tools-progres .progres:nth-child(even){
+    padding-left: 20px;
+}
+.tools .tools-progres .progres p{
+    float: left;
+    font-size: 13px;
+    color: #f0eeee;
+    margin: 0;
+    position: absolute;
+    top: -20px;
+    right: 0;
+}
+.tools h6{color: #f0eeee;}
+.tools .tools-progres .progres .prog{
+    width: 100%;
+    background-color: #dddddd;
+    border: 3px solid #131313;
+    border-radius: 15px;
+    height: 14px;
+    position: relative;
+}
+.tools .tools-progres .progres .prog span{
+    
+    position: absolute;
+    height: 100%;
+    border-radius: 15px;
+}
+
